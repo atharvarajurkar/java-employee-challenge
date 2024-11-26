@@ -1,0 +1,12 @@
+spring.application.name: employee-api
+server.port: 8111
+
+# Log pattern
+#logging.pattern.console: %d{yyyy-MM-dd HH:mm:ss} - %msg%n
+#logging.pattern.file: %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+  
+  # Log file
+logging.file.name: application.log
+logging.file.path: /
+logging.file.max-size: 1MB
+logging.file.total-size-cap: 50MB
